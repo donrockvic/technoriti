@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* comman for all */
+.glass{position: relative;padding: 15px 20px;background: #2EBBCC;background-image: linear-gradient(#236AAB,#8DC7E0);text-decoration: none;color: #fff;font-size: 15px;font-family: sans-serif;font-weight: 80;border-radius: 15px;box-shadow: 0px 1px 4px -2px #333;text-shadow: 0px -1px #333;}
+.glass:after{content: '';position: absolute;top: 2px;left: 2px;width: calc(100% - 4px);height: 50%;background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));}
+.glass:hover{background: linear-gradient(#073,#0fa);}
+div > a {color:#000000;}
+#spon_bdy{position: fixed;left: 48px;top: 90%;width: 235px;height:330px;z-index: 1;}
+#spon_img {background-color: transparent;	background-color:#1B1919;color:#FFFFFF;position: absolute;left: 5px;top: 58px;width: 240px;height: 202px;z-index: 1;}
+
+.thd{overflow:hidden;text-align:center}
+body{color:#000000;background-color:#5AEEF0;background-repeat:no-repeat;background-size:cover;background-attachment:fixed;}
+
+/*...................................................other one...........................................*/
+ @font-face{font-family:'vicky';src:url('../fonts/Origram.otf'),url('../fonts/Origram.eot');opacity:0.1;}
+.text--line {font-size: 0.5em}
+.text-copy {fill: none;stroke: white;stroke-dasharray: 7% 10%;stroke-width: 1.5px;
+  -webkit-animation: stroke-offset 5s infinite linear;
+     -moz-animation: stroke-offset 50s infinite linear;
+          animation: stroke-offset 25s infinite linear;}
+.text-copy:nth-child(1) {stroke: #060606;stroke-dashoffset: 7%;}
+.text-copy:nth-child(2) {stroke: #060606;stroke-dashoffset: 7%;}
+.text-copy:nth-child(3) {stroke: #060606;stroke-dashoffset: 7%;}
+.text-copy:nth-child(4) {stroke: #060606;stroke-dashoffset: 7%;}
+.text-copy:nth-child(5) {stroke: #060606;stroke-dashoffset: 7%;}
+.trlogo{width:5em;height:5em;}
+.bcelogo{width:4.5em;height:5em;}
+svg{ width:100%;height:40%;}
+#recdisp{align-content:center;padding-top:10px;}
+/*______________________________________________________________________________________________________________*/
+.btne{padding-top:0.5%;bordr:1px solid #000000;background-color:#0EECAA;height:3em;width:100%;border-radius:10px;opacity:0.8;color:#FFFFFF;	}
+
+
+
+@-webkit-keyframes stroke-offset {50% {stroke-dashoffset: 35%;stroke-dasharray: 0 87.5%;}}
+@keyframes stroke-offset {50% {stroke-dashoffset: 35%;stroke-dasharray: 0 87.5%;}}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  /* Styles */
+ body{background-image: url(../images/mbc.jpg);}
+ .logo{position:fixed;top:0px;left:10px;width:100px;height:100px;}
+.blogo{	position:fixed;top:0px;left:75%;width:100px;height:100px;}
+#body {background-size: .1em 100%;overflow:hidden;font: 16em/1 'vicky', serif ;}
+.df{margin-top:-15em}
+.fb{font-size:large;color:#524E4E;margin-top:2px;}
+.shd{padding-left:5em;padding-top:22px}
+#title1,#title{text-align:center;font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;	font-size:30px; padding-bottom:5%;}
+#text{font-family: 'Philosopher', sans-serif;font-size:15px; text-align:justify;}
+.xs{font-size:large}
+#upd_bdy {background-color: transparent;position: fixed;left:93%;top: 195px;width: 100px;height: 280px;z-index: 3;}
+#upd_nme{background-color:#1B1919;color:#FFFFFF;position:absolute;left:1px;top:30px; width:30px;border:1px solid #000000;cursor:pointer;border-bottom-left-radius:10px;border-top-left-radius:10px;}
+#upd_text {background-color:#1B1919;color:#FFFFFF;padding: 5px;overflow:scroll;position: absolute;left: 25px;top: 15px;width: 100px;height: 248px;z-index: 1; border:1px solid #000000;}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+  /* Styles */
+  body{background-image: url(../images/mbc.jpg);}
+.logo{position:fixed;top:0px;left:10px;width:100px;height:100px;}
+.blogo{	position:fixed;top:0px;left:85%;width:100px;height:100px;}
+#body {background-size: .12em 100%;overflow:hidden;font: 18em/1 'vicky', serif ;}
+.pad{padding-left:5em;}
+.df{margin-top:-15em}
+.fb{font-size:x-large;color:#524E4E;margin-top:2px;}
+.shd{padding-left:5em}
+#title1,#title{text-align:center;font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;	font-size:54px; padding-bottom:5%;}
+#text{font-family: 'Philosopher', sans-serif;font-size: large; text-align:justify;}
+.xs{font-size:x-large}
+#upd_bdy {background-color: transparent;position: fixed;left:98%;top: 195px;width: 380px;height: 280px;z-index: 3;}
+#upd_nme{background-color:#1B1919;color:#FFFFFF;position:absolute;left:1px;top:30px; width:30px;border:1px solid #000000;cursor:pointer;border-bottom-left-radius:10px;border-top-left-radius:10px;}
+#upd_text {background-color:#1B1919;color:#FFFFFF;padding: 10px;overflow:scroll;position: absolute;left: 30px;top: 15px;width: 348px;height: 248px;	z-index: 1; border:1px solid #000000;}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+  /* Styles */
+body{background-image: url(../images/bc.jpg);}
+.logo{position:fixed;top:0px;left:10px;width:100px;height:100px;}
+.blogo{	position:fixed;top:0px;left:85%;width:100px;height:100px;}
+#body {background-size: .12em 100%;overflow:hidden;font: 18em/1 'vicky', serif ;}
+.pad{padding-left:5em;}
+.df{margin-top:-30em}
+.fb{font-size:x-large;color:#524E4E;margin-top:2px;}
+.shd{padding-left:5em}
+#title1,#title{text-align:center;font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;	font-size:54px; padding-bottom:5%;}
+#text{font-family: 'Philosopher', sans-serif;font-size: large; text-align:justify;}
+.xs{font-size:x-large}
+#upd_bdy {background-color: transparent;position: fixed;left:98%;top: 195px;width: 380px;height: 280px;z-index: 3;}
+#upd_nme{background-color:#1B1919;color:#FFFFFF;position:absolute;left:1px;top:30px; width:30px;border:1px solid #000000;cursor:pointer;border-bottom-left-radius:10px;border-top-left-radius:10px;}
+#upd_text {background-color:#1B1919;color:#FFFFFF;padding: 10px;overflow:scroll;position: absolute;left: 30px;top: 15px;width: 348px;height: 248px;	z-index: 1; border:1px solid #000000;}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+  /* Styles */
+
+.logo{position:fixed;top:0px;left:10px;width:100px;height:100px;}
+.blogo{	position:fixed;top:0px;left:85%;width:100px;height:100px;}
+#body {background-size: .12em 100%;overflow:hidden;font: 18em/1 'vicky', serif ;}
+.pad{padding-left:5em;}
+.df{margin-top:-35em}
+.fb{font-size:x-large;color:#524E4E;margin-top:2px;}
+.shd{padding-left:5em}
+#title1,#title{text-align:center;font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;	font-size:54px; padding-bottom:5%;}
+#text{font-family: 'Philosopher', sans-serif;font-size: large; text-align:justify;}
+.xs{font-size:x-large}
+#upd_bdy {background-color: transparent;position: fixed;left:98%;top: 195px;width: 380px;height: 280px;z-index: 3;}
+#upd_nme{background-color:#1B1919;color:#FFFFFF;position:absolute;left:1px;top:30px; width:30px;border:1px solid #000000;cursor:pointer;border-bottom-left-radius:10px;border-top-left-radius:10px;}
+#upd_text {background-color:#1B1919;color:#FFFFFF;padding: 10px;overflow:scroll;position: absolute;left: 30px;top: 15px;width: 348px;height: 248px;	z-index: 1; border:1px solid #000000;}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+  /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+  /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+  /* Styles */
+  body{background-image: url(../images/bc.jpg);}
+  .logo{position:fixed;top:0px;left:10px;width:100px;height:100px;}
+.blogo{	position:fixed;top:0px;left:85%;width:100px;height:100px;}
+#body {background-size: .12em 100%;overflow:hidden;font: 18em/1 'vicky', serif ;}
+.pad{padding-left:10em;}
+.df{margin-top:-60em}
+.fb{font-size:xx-large;color:#524E4E;margin-top:2px;}
+.shd{padding-left:5em}
+#title1,#title{text-align:center;font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;	font-size:54px; padding-bottom:5%;}
+#text{font-family: 'Philosopher', sans-serif;font-size: large; text-align:justify;}
+.xs{font-size:xx-large}
+
+}
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+  /* Styles */
+}
+
+/* iPhone 4 - 5s ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+  /* Styles */
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* ........................................................................................*/
+ /* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  /* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+  /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+  /* Styles */
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+  /* Styles */
+}
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+  /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+  /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+  /* Styles */
+}
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+  /* Styles */
+}
+
+/* iPhone 4 - 5s ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+  /* Styles */
+}

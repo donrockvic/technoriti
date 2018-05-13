@@ -1,0 +1,22 @@
+*{color:#FFFFFF;}
+.box{background-color:#000000;background-image:url('../images/eventsbc.jpg');background-size:cover}
+a{color:#FFFFFF;}
+ .tile{	padding-left:1em;}
+.tab-pane>h3{text-align:center;}
+.tile:hover{padding-left:1em;background-color:#3295E7;}
+footer{background-color: #1B1A1A;margin-top:1%;}
+.finalnav1,.finalnav2{background-color: #1B1A1A;}
+.row tile{	padding-left:2em;}
+.active{background-color:#3399FF;}
+.tab-pane{padding:1em;background-color:transparent;font-size:medium;}
+.tab-pane>h3{font-family:Baskerville, "Palatino Linotype", "Palatino", "Century Schoolbook L", Times New Roman, serif;font-weight:200;}
+#quoteg{font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter",Monaco, "Courier New", monospace;font-style:italic;font-size:large;}
+.name{text-align: center;text-shadow: 1px 0px 4px #92BEE1;}
+.quotes{border-radius:1em;border:1px solid #FFFFFF;margin-top:1em;height:10em;margin-bottom:1em;}
+.body{background: #333;background-image:url('../images/umang.jpg');background-size: cover;overflow:hidden;
+background-attachment:fixed;padding-top:20%;}
+.fig{paddding-left:1em;}
+#mpe{background-color: #514C4D; opacity:0.9;text-align:center;color:#FFFFFF;	padding:0.5em;margin:1em;-moz-box-shadow: 5px 5px 5px #777777;-webkit-box-shadow: 5px 5px 5px #777777;box-shadow: 5px 5px 5px #777777;}
+#know{overflow:hidden}
+header{position:relative;height:100%;width:100%;overflow:hidden;}
+.make{position:relative;padding-top:1%}

@@ -1,0 +1,174 @@
+
+.cssload-preloader {position:absolute;top: 300px;left:200px;}
+
+.cssload-preloader > .cssload-preloader-box {
+	height: 65px;top: 80%;left: 40%;
+	perspective: 350px;
+		-o-perspective: 350px;
+		-ms-perspective: 350px;
+		-webkit-perspective: 350px;
+		-moz-perspective: 350px;
+}
+
+.cssload-preloader .cssload-preloader-box > div {
+	position: relative;
+	width: 65px;
+	height: 65px;
+	background: rgb(0,0,0);
+	float: left;
+	text-align: center;
+	line-height: 53px;
+	font-family: Verdana;
+	font-size: 35px;
+	color: rgb(255,255,255);
+}.cssload-preloader .cssload-preloader-box > div:nth-child(1) {
+	background: rgb(0,0,0);
+	margin-right: 26px;
+	animation: cssload-movement 690ms ease 0ms infinite alternate;
+		-o-animation: cssload-movement 690ms ease 0ms infinite alternate;
+		-ms-animation: cssload-movement 690ms ease 0ms infinite alternate;
+		-webkit-animation: cssload-movement 690ms ease 0ms infinite alternate;
+		-moz-animation: cssload-movement 690ms ease 0ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(2) {
+	background: rgb(0,0,0);
+	margin-right: 26px;
+	animation: cssload-movement 690ms ease 86.25ms infinite alternate;
+		-o-animation: cssload-movement 690ms ease 86.25ms infinite alternate;
+		-ms-animation: cssload-movement 690ms ease 86.25ms infinite alternate;
+		-webkit-animation: cssload-movement 690ms ease 86.25ms infinite alternate;
+		-moz-animation: cssload-movement 690ms ease 86.25ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(3) {
+	background: rgb(0,0,0);
+	margin-right: 26px;
+	animation: cssload-movement 690ms ease 172.5ms infinite alternate;
+		-o-animation: cssload-movement 690ms ease 172.5ms infinite alternate;
+		-ms-animation: cssload-movement 690ms ease 172.5ms infinite alternate;
+		-webkit-animation: cssload-movement 690ms ease 172.5ms infinite alternate;
+		-moz-animation: cssload-movement 690ms ease 172.5ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(4) {
+	background: rgb(0,0,0);
+	margin-right: 26px;
+	animation: cssload-movement 690ms ease 258.75ms infinite alternate;
+		-o-animation: cssload-movement 690ms ease 258.75ms infinite alternate;
+		-ms-animation: cssload-movement 690ms ease 258.75ms infinite alternate;
+		-webkit-animation: cssload-movement 690ms ease 258.75ms infinite alternate;
+		-moz-animation: cssload-movement 690ms ease 258.75ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(5) {
+	background: rgb(0,0,0);
+	margin-right: 26px;
+	animation: cssload-movement 690ms ease 345ms infinite alternate;
+		-o-animation: cssload-movement 690ms ease 345ms infinite alternate;
+		-ms-animation: cssload-movement 690ms ease 345ms infinite alternate;
+		-webkit-animation: cssload-movement 690ms ease 345ms infinite alternate;
+		-moz-animation: cssload-movement 690ms ease 345ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(6) {
+	background: rgb(0,0,0);
+	margin-right: 26px;
+	animation: cssload-movement 690ms ease 431.25ms infinite alternate;
+		-o-animation: cssload-movement 690ms ease 431.25ms infinite alternate;
+		-ms-animation: cssload-movement 690ms ease 431.25ms infinite alternate;
+		-webkit-animation: cssload-movement 690ms ease 431.25ms infinite alternate;
+		-moz-animation: cssload-movement 690ms ease 431.25ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(7) {
+	background: rgb(0,0,0);
+	margin-right: 26px;
+	animation: cssload-movement 690ms ease 517.5ms infinite alternate;
+		-o-animation: cssload-movement 690ms ease 517.5ms infinite alternate;
+		-ms-animation: cssload-movement 690ms ease 517.5ms infinite alternate;
+		-webkit-animation: cssload-movement 690ms ease 517.5ms infinite alternate;
+		-moz-animation: cssload-movement 690ms ease 517.5ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(8) {
+	background: rgb(0,0,0);
+	margin-right: 26px;
+	animation: cssload-movement 690ms ease 603.75ms infinite alternate;
+		-o-animation: cssload-movement 690ms ease 603.75ms infinite alternate;
+		-ms-animation: cssload-movement 690ms ease 603.75ms infinite alternate;
+		-webkit-animation: cssload-movement 690ms ease 603.75ms infinite alternate;
+		-moz-animation: cssload-movement 690ms ease 603.75ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(9) {
+	background: rgb(15,15,15);
+	margin-right: 26px;
+	animation: cssload-movement 690ms ease 690ms infinite alternate;
+		-o-animation: cssload-movement 690ms ease 690ms infinite alternate;
+		-ms-animation: cssload-movement 690ms ease 690ms infinite alternate;
+		-webkit-animation: cssload-movement 690ms ease 690ms infinite alternate;
+		-moz-animation: cssload-movement 690ms ease 690ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(10) {
+	background: rgb(5,5,5);
+	margin-right: 26px;
+	animation: cssload-movement 690ms ease 776.25ms infinite alternate;
+		-o-animation: cssload-movement 690ms ease 776.25ms infinite alternate;
+		-ms-animation: cssload-movement 690ms ease 776.25ms infinite alternate;
+		-webkit-animation: cssload-movement 690ms ease 776.25ms infinite alternate;
+		-moz-animation: cssload-movement 690ms ease 776.25ms infinite alternate;
+}
+
+
+@keyframes cssload-movement {
+	from {
+		transform: scale(1.0) translateY(0px) rotateX(0deg);
+		box-shadow: 0 0 0 rgba(0,0,0,0);
+	}
+	to {
+		transform: scale(1.5) translateY(-44px) rotateX(45deg);
+		box-shadow: 0 44px 70px rgba(255,255,255,0.4);
+		background: rgb(51,153,255);
+	}
+}
+
+@-o-keyframes cssload-movement {
+	from {
+		-o-transform: scale(1.0) translateY(0px) rotateX(0deg);
+		box-shadow: 0 0 0 rgba(0,0,0,0);
+	}
+	to {
+		-o-transform: scale(1.5) translateY(-44px) rotateX(45deg);
+		box-shadow: 0 44px 70px rgba(255,255,255,0.4);
+		background: rgb(51,153,255);
+	}
+}
+
+@-ms-keyframes cssload-movement {
+	from {
+		-ms-transform: scale(1.0) translateY(0px) rotateX(0deg);
+		box-shadow: 0 0 0 rgba(0,0,0,0);
+	}
+	to {
+		-ms-transform: scale(1.5) translateY(-44px) rotateX(45deg);
+		box-shadow: 0 44px 70px rgba(255,255,255,0.4);
+		background: rgb(51,153,255);
+	}
+}
+
+@-webkit-keyframes cssload-movement {
+	from {
+		-webkit-transform: scale(1.0) translateY(0px) rotateX(0deg);
+		box-shadow: 0 0 0 rgba(0,0,0,0);
+	}
+	to {
+		-webkit-transform: scale(1.5) translateY(-44px) rotateX(45deg);
+		box-shadow: 0 44px 70px rgba(255,255,255,0.4);
+		background: rgb(51,153,255);
+	}
+}
+
+@-moz-keyframes cssload-movement {
+	from {
+		-moz-transform: scale(1.0) translateY(0px) rotateX(0deg);
+		box-shadow: 0 0 0 rgba(0,0,0,0);
+	}
+	to {
+		-moz-transform: scale(1.5) translateY(-44px) rotateX(45deg);
+		box-shadow: 0 44px 70px rgba(255,255,255,0.4);
+		background: rgb(51,153,255);
+	}
+}
